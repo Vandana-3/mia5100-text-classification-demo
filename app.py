@@ -117,6 +117,6 @@ with st.sidebar:
     st.write("**Classifier:** Logistic Regression")
     st.write("**Features:** TF-IDF unigrams and bigrams")
     if metadata.get("test_accuracy") is not None:
-        st.write(f"**Recorded test accuracy:** {metadata['test_accuracy']:.3f}")
+        st.write(f"**Artifact holdout accuracy:** {metadata['test_accuracy']:.3f}")
     if metadata.get("test_macro_f1") is not None:
-        st.write(f"**Recorded test macro F1:** {metadata['test_macro_f1']:.3f}")
+        st.write(f"**Artifact holdout macro F1:** {metadata['test_macro_f1']:.3f}")

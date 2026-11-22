@@ -31,7 +31,13 @@ and results may not generalize beyond the evaluated data.
 - Conservative, meaning-preserving text cleaning
 - TF-IDF with unigrams and bigrams
 - Tuned Logistic Regression
-- Test accuracy: 0.7513
-- Test macro F1: 0.6986
+- Team notebook test accuracy: 0.7513
+- Team notebook test macro F1: 0.6986
 
-The dataset is not included in this repository.
+The deployed artifact is a local reproduction trained from the original public Kaggle
+CSV with the same preprocessing, split seed, TF-IDF settings, and tuned Logistic
+Regression parameters. Its holdout results are stored in the artifact metadata and
+shown in the app sidebar.
+
+The dataset is not included in this repository. Source: [Sentiment Analysis for
+Mental Health](https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health).

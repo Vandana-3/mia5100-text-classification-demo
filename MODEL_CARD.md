@@ -17,9 +17,12 @@ independently clinically verified.
 
 ## Reported performance
 
-The tuned Logistic Regression model reported test accuracy 0.7513 and macro F1
-0.6986 on 10,203 held-out statements. Performance varied by class. Suicidal recall
-was 0.69, so safety-relevant false negatives remain.
+The team notebook's tuned Logistic Regression reported test accuracy 0.7513 and
+macro F1 0.6986 on 10,203 held-out statements. Performance varied by class.
+Suicidal recall was 0.69, so safety-relevant false negatives remain.
+
+The deployed artifact is a reproducible local fit using the original public CSV and
+the same model settings. Its holdout accuracy is 0.7531 and macro F1 is 0.7034.
 
 ## Limitations
 
